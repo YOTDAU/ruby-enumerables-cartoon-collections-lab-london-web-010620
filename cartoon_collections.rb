@@ -9,9 +9,10 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  array.map do {|element| if element.length < 4}
+  array.map do 
+    {|element| if element.length < 4}
   return true 
-else
+  else
   return false 
 end
 
